@@ -20,23 +20,25 @@
         --love: #b4637a;
         --foam: #286983;
         --border: #dfdad9;
+
+        font-size: 18px; /* bumped from default ~16px */
       }
 
       * { margin: 0; padding: 0; box-sizing: border-box; }
       body {
         font-family: 'JetBrains Mono', monospace;
-        line-height: 1.65;
+        line-height: 1.75;
         background-color: var(--base);
         color: var(--text);
         font-weight: 300;
         padding-bottom: 40px;
       }
 
-      .container { max-width: 720px; margin: 0 auto; padding: 60px 24px; }
+      .container { max-width: 760px; margin: 0 auto; padding: 60px 24px; }
 
       header { margin-bottom: 60px; }
       h1 {
-        font-size: 2em;
+        font-size: 2.4rem; /* larger */
         margin-bottom: 10px;
         font-weight: 400;
         color: var(--love);
@@ -44,12 +46,12 @@
 
       .title, .university, .meta {
         color: var(--muted);
-        font-size: 0.95em;
+        font-size: 1rem; /* slightly larger */
         margin-bottom: 4px;
       }
 
       .welcome {
-        font-size: 1.05em;
+        font-size: 1.15rem;
         margin-bottom: 40px;
         color: var(--foam);
       }
@@ -62,13 +64,13 @@
       .section:last-child { border-bottom: none; }
 
       .section h2 {
-        font-size: 1.15em;
+        font-size: 1.3rem; /* bigger headings */
         font-weight: 400;
         color: var(--love);
         margin-bottom: 12px;
       }
 
-      p, li { font-size: 0.98em; margin-bottom: 12px; }
+      p, li { font-size: 1.05rem; margin-bottom: 14px; }
 
       ul { margin-left: 1.25rem; }
 
@@ -82,7 +84,7 @@
       footer {
         border-top: 1px solid var(--border);
         padding-top: 20px;
-        font-size: 0.9em;
+        font-size: 0.95rem;
         color: var(--muted);
         margin-top: 40px;
         text-align: center;
